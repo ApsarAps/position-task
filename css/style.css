@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    padding: 5%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 8vh;
+
+}
+.container h1{
+    padding: 20px;
+    font-family: "Trirong", serif;
+    text-align: center;
+}
+.top img{
+    width: 500px;
+    position: relative;
+    bottom:0;
+    border-radius: 2vh;
+}
+.one{
+    color: white;
+    text-align: center;
+    font-family: "Trirong", serif;
+    position: absolute;
+    top: 96%;
+    left:31.4%;
+    width: 500px;
+    border-radius: 2vh;
+    
+}
+.one:hover{
+    cursor: pointer;
+    background-color: aqua;
+    
+    
+}
+.one a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
