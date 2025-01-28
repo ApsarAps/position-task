@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
 }
-.container{
+.box{
     width: 500px;
     height: 500px;
     padding: 5%;
@@ -11,7 +11,7 @@
     border-radius: 8vh;
 
 }
-.container h1{
+.box h1{
     padding: 20px;
     font-family: "Trirong", serif;
     text-align: center;
@@ -22,26 +22,31 @@
     bottom:0;
     border-radius: 2vh;
 }
-.one{
-    color: white;
+.content{
+    display: none;
+    
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: "Trirong", serif;
     position: absolute;
     top: 96%;
     left:31.4%;
-    width: 500px;
     border-radius: 2vh;
-    
-}
-.one:hover{
-    cursor: pointer;
+    width: 500px;
     background-color: aqua;
     
+}
+.top:hover .content{
+    cursor: pointer;
+    display: block;
+    
+    
+    
     
 }
-.one a{
+.content a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
