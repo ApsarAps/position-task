@@ -1,55 +1,39 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.box{
-    width: 500px;
-    height: 500px;
-    padding: 5%;
-    margin: auto;
-    margin-top: 10%;
-    border-radius: 8vh;
 
-}
-.box h1{
-    padding: 20px;
-    font-family: "Trirong", serif;
+.heading,.child{
     text-align: center;
 }
-.top img{
-    width: 500px;
+.child{
     position: relative;
-    bottom:0;
-    border-radius: 2vh;
+    bottom: 0%;
 }
+.child img{
+    width: 400px;
+    border-radius: 2vi;
+
+}
+
 .content{
-    display: none;
-    
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: "Trirong", serif;
     position: absolute;
-    top: 96%;
-    left:31.4%;
-    border-radius: 2vh;
-    width: 500px;
-    background-color: aqua;
-    
+    top: 83%;
+    left:35.3%;
+    display: none;
+    width: 29.5%;
+   
 }
-.top:hover .content{
-    cursor: pointer;
+.child:hover .content{
     display: block;
-    
-    
-    
-    
-}
-.content a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
+    cursor: pointer;
 
+    background-color: aqua;
+    border-radius: 2vi;
+    
 
+}
 
 
 
